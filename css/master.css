@@ -127,12 +127,12 @@ body {
   }
   .header-area .active {
     opacity: 1;
-    top: 8%;
+    top: 5rem;
   }
   .header-area .toggle-menu {
     position: fixed;
     cursor: pointer;
-    width: 2.5rem;
+    width: 2.4rem;
     height: 2.5rem;
     top: 1.5rem;
     right: 16%;
@@ -154,9 +154,6 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .header-area {
-    height: 8%;
-  }
   .header-area .logo {
     font-size: 1.2rem;
   }
@@ -323,7 +320,7 @@ body {
     height: 50%;
   }
   .introduction-text h2 {
-    line-height: 1;
+    line-height: 1.2;
   }
   .introduction-text .btn {
     width: 8rem;
@@ -342,7 +339,7 @@ body {
   .tilt-wrapper {
     max-width: 100%;
     left: 5%;
-    top: 60%;
+    top: 57%;
     width: 50rem;
   }
   .tilt-wrapper.active2 {
@@ -356,29 +353,26 @@ body {
   .home-page {
     min-height: 56rem;
   }
-  #home {
-    top: 15%;
-  }
   .introduction-text .btn {
     width: 6rem;
     left: calc(50% - 3rem);
     font-size: 1rem;
   }
   .introduction-text .content h2 {
-    font-size: 2.2rem;
-    margin-top: 2rem;
+    font-size: 2.3rem;
+    margin-top: 1.8rem;
   }
   .introduction-text .content h2 span {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
   }
   .introduction-text .content p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .social-icons a {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 @media (max-width: 400px) {
@@ -519,7 +513,6 @@ body {
   font-size: 2rem;
   border-radius: 50%;
   background: var(--background-color);
-  /* color: var(--skillp-color); */
   color: var(--heading-color);
   line-height: 2rem;
 }
@@ -909,7 +902,8 @@ form .button-area {
 .footer .credit {
   position: relative;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
+  transform: translateY(2px);
   background: var(--main-color);
   border-top: 0.1rem solid #fff3;
 }
