@@ -855,7 +855,7 @@ form .button-area {
   padding: 4rem;
 }
 .footer .box-container .box {
-  flex: 1 1 50%;
+  flex: 1 1 40%;
   margin: 2rem;
 }
 .footer .box-container .box h3 {
@@ -937,6 +937,9 @@ form .button-area {
   }
   .footer .box-container .box .share {
     justify-content: center;
+  }
+  .footer .box-container .box {
+    flex: 1 1 50%;
   }
 }
 /* footer section ends */
