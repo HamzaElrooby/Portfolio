@@ -316,7 +316,7 @@ body {
   }
   #home {
     min-width: 100%;
-    top: 14%;
+    top: 11%;
     height: 50%;
   }
   .introduction-text h2 {
@@ -339,14 +339,14 @@ body {
   .tilt-wrapper {
     max-width: 100%;
     left: 5%;
-    top: 57%;
+    top: 53%;
     width: 50rem;
   }
   .tilt-wrapper.active2 {
     left: 0;
   }
   .tilt-card img {
-    width: 18rem;
+    width: 17rem;
   }
 }
 @media (max-width: 505px) {
@@ -706,6 +706,7 @@ body {
   color: var(--heading-color);
   text-align: center;
   margin-top: 5rem;
+  width: 105%;
 }
 .contact .contact-pic img {
   width: 18rem;
@@ -881,10 +882,11 @@ form .button-area {
   padding: 1rem 0;
 }
 .footer .box-container .box .share a {
-  height: 4rem;
-  width: 4rem;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  width: 3rem;
   padding: 1rem;
-  text-align: center;
   border-radius: 5rem;
   font-size: 1.5rem;
   margin-right: 1rem;
