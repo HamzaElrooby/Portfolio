@@ -129,7 +129,7 @@ body {
   }
   .header-area .active {
     opacity: 1;
-    top: 5rem;
+    top: 4.4rem;
   }
   .header-area .toggle-menu {
     position: fixed;
@@ -347,7 +347,7 @@ body {
   .tilt-wrapper {
     max-width: 100%;
     left: 5%;
-    top: 58%;
+    top: 56%;
     width: 50rem;
   }
   .tilt-wrapper.active2 {
@@ -846,7 +846,7 @@ form .button-area {
 }
 /* footer section starts */
 .footer {
-  background: #22293b;
+  background: #1b202e;
 }
 .footer .box-container {
   display: flex;
