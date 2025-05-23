@@ -53,6 +53,7 @@ body {
   width: 80%;
 }
 .header-area .logo {
+  left: 0;
   font-size: 2rem;
   position: absolute;
   top: 0.3rem;
