@@ -11,7 +11,6 @@
   --btn-color: #51a1f0;
   --text-color: #333333;
   --skilltext-color: rgba(255, 255, 255, 0.39);
-  --skillp-color: #0a325e;
   --skillcontbg-color: #476cd2;
   --background-color: linear-gradient(to bottom, #bec9dc, #87a6d5);
 }
@@ -561,7 +560,7 @@ body {
 }
 .experience .desc p {
   font-size: 1rem;
-  color: var(--skillp-color);
+  color: var(--text-color);
   line-height: 1.4;
   font-weight: bold;
   text-align: center;
