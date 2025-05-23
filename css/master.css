@@ -135,7 +135,7 @@ body {
     position: fixed;
     cursor: pointer;
     width: 2.4rem;
-    height: 2.5rem;
+    height: 2.3rem;
     top: 1.5rem;
     right: 16%;
   }
@@ -846,7 +846,7 @@ form .button-area {
 }
 /* footer section starts */
 .footer {
-  background: #1b202e;
+  background: #1a2131;
 }
 .footer .box-container {
   display: flex;
