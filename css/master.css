@@ -571,13 +571,13 @@ body {
 #cont3,
 #cont5 {
   opacity: 0;
-  transform: translateX(2rem);
+  transform: translate(3rem, -2rem);
 }
 #cont2,
 #cont4,
 #cont6 {
   opacity: 0;
-  transform: translateX(-2rem);
+  transform: translate(-3rem, -2rem);
 }
 #cont1.active1,
 #cont2.active2,
@@ -586,7 +586,7 @@ body {
 #cont5.active5,
 #cont6.active6 {
   opacity: 1;
-  transform: translateX(0);
+  transform: translate(0, 0);
 }
 .morebtn {
   display: flex;
